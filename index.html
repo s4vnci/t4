@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Trang web của Tò Mò</title>
+    <style>
+      .profile-pic {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+        height: 200px;
+      }
+
+      hometown-pic {
+        width: 300px;
+        height: 150px;
+      }
+
+      .introduction,
+      .projects {
+        text-align: center;
+      }
+
+      .project-pic {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 300px;
+        width: 400px;
+      }
+
+      .project-list,
+      .blog-list {
+        column-count: 3;
+      }
+
+      button a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .button {
+        background-color: #303f9f;
+        border: none;
+        border-radius: 8px;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin-bottom: 16px;
+      }
+
+      .contact-pic {
+        width: 32px;
+        height: 32px;
+      }
+
+      .contact {
+        margin-left: 8px;
+      }
+
+      .contact a {
+        text-decoration: none;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="images/profile/tomo.png" class="profile-pic" />
+    <div class="introduction">
+      <h1>Đây là blog của Tò Mò</h1>
+      <p>
+          Xin chào các bạn trên khắp thế giới. Tớ là Tò Mò. Tớ năm nay 12 tuổi. Tớ<br/>
+          hiện đang sống ở Việt Nam. Đây là trang web chia sẻ về sở thích của tớ,<br/>
+          các dự án tớ đã làm, và những bài blog chia sẻ tớ viết.<br/>
+          Tớ hi vọng được làm quen với các bạn trên toàn thế giới.
+      </p>
+      <button class="button">
+        <a>
+          Giới thiệu về tớ
+        </a>
+      </button>
+    </div>
+    <div class="introduction">
+      <h2>Giới thiệu về tớ</h2>
+      <img
+        class="hometown-pic"
+        src="images/hanoi.jpeg"
+        alt="Hanoi"
+      />
+      <p>
+        Tớ đang sống ở Hà Nội, Việt Nam. Tớ rất thích xem phim hoạt hình, nghe nhạc<br/> 
+        vẽ tranh. Ngoài ra tớ cũng thích lập trình, đặc biệt là với Python.<br/> 
+        Tớ đặc biệt thích làm 300 bài code thiếu nhi.
+      </p>
+    </div>
+    <div class="projects">
+      <h2>Dự án của tớ</h2>
+      <div class="project-list">
+          <div>
+            <img
+              class="project-pic"
+              src="images/projects/StotheTEAM2.png"
+              alt="Ảnh dự án 1"
+            />
+            <div class="description">
+              <h3>S to the TEAM</h5>
+              <p>
+                  Đây là dự án tớ làm sau khi tham gia bài học
+                  ngoại khoá cùng với thầy Huy và thầy Justin 
+                  ở khoá CS101 tại STEAM for Vietnam. 
+                  Bạn Ma Kết nhảy trên nền nhạc S to the TEAM. 
+                  Dự án được làm với Scratch và Python.
+              </p>
+              <button class="button">
+                <a href="#">Chơi game</a>
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <img
+              class="project-pic"
+              src="images/projects/BaycaoVietNam.png"
+              alt="Ảnh dự án 2"
+            />
+            <div class="description">
+              <h3>Bay cao Việt Nam</h5>
+              <p>
+                  Đây là dự án cuối khóa của tớ sau khi tham gia 
+                  khoá CS001 tại Steam for Vietnam. Dự án có tên 
+                  là Bay cao Việt Nam. Các bạn sẽ cùng bạn Cò phiêu 
+                  lưu đến mọi vùng miền của tổ quốc để tìm hiểu về 
+                  đất nước Việt Nam nhá.
+              </p>
+              <button class="button">
+                <a href="#">Chơi game</a>
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <img
+              class="project-pic"
+              src="images/projects/max.png"
+              alt="Ảnh dự án 3"
+            />
+            <div class="description">
+              <h3>Thuật toán tìm số lớn nhất</h5>
+              <p>
+                  Đây là dự án tớ làm trong lớp CS101 để mô phỏng 
+                  thuật toán tìm số lớn nhất được học trong bài 3 
+                  của thầy Harry. Mời mọi người cùng chơi!!!
+              </p>
+              <button class="button">
+                <a href="#">Chơi game</a>
+              </button>
+            </div>
+          </div>
+    </div>
+    <div class="contact">
+      <h2>Ai muốn làm quen với mình thì kết bạn nhé</h2>
+      <img
+          class="contact-pic"
+          src="images/contact/steamese-profile.svg"
+      />
+      <a href="https://www.steamforvietnam.org/steamese">
+        STEAMese Profile
+      </a>
+    </div>
+  </body>
+</html>
